@@ -65,6 +65,7 @@ function taskform(project){
         e.preventDefault()
     })
 
+    taskFieldset.id = 'fieldset'
     
     taskFieldset.appendChild(titleLable)
     taskFieldset.appendChild(titleInput)
@@ -76,6 +77,9 @@ function taskform(project){
     taskFieldset.appendChild(descriptionInput)
     taskFieldset.appendChild(formbutton)
     taskForm.appendChild(taskFieldset)
+
+    formContainer.id = 'formcontainer'
+
     formContainer.appendChild(taskForm)
 
     return formContainer

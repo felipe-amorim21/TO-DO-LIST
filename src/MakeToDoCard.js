@@ -13,6 +13,8 @@ function MakeToDOCard(todo){
     toDoDueDate.innerHTML = todo.getDueDate()
     toDoPriority.innerHTML = todo.getPriority()
 
+    toDoCard.id = 'todocard'
+
     toDoCard.appendChild(toDoTitle)
     toDoCard.appendChild(toDoDescription)
     toDoCard.appendChild(toDoDueDate)
